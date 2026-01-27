@@ -3,3 +3,13 @@
 for (let day = 1; day <= 60; day++) {
     console.log("I will invest at least 6 hours every day for next 60 day");
 }
+
+// task 2 (Find all the odd numbers from 61 to 100.)
+
+let number = 61;
+while (number <= 100) {
+    if( number % 2 === 1) {
+        console.log(`${number}`);
+    }
+    number++;
+}
