@@ -22,3 +22,15 @@ while (evenNumber <= 98) {
     }
     evenNumber++;
 }
+
+// task 4 (display sum of all the odd numbers from 81 to 131)
+
+let totalOddNumber = 0;
+let oddNum = 81;
+while (oddNum <= 131){
+    if(oddNum % 2 === 1){
+        totalOddNumber += oddNum;
+        console.log(totalOddNumber);
+    }
+    oddNum++;
+}
