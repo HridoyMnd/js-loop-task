@@ -13,3 +13,12 @@ while (number <= 100) {
     }
     number++;
 }
+
+// task 3 (Find all the even numbers from 78 to 98.)
+let evenNumber = 78;
+while (evenNumber <= 98) {
+    if(evenNumber % 2 !== 1){
+        console.log(evenNumber);
+    }
+    evenNumber++;
+}
