@@ -34,3 +34,15 @@ while (oddNum <= 131){
     }
     oddNum++;
 }
+
+// task 5 (display sum of all the even numbers from 206 to 311)
+
+let totalEvenNumber = 0;
+let evenNum = 206;
+while (evenNum <= 311){
+    if(evenNum % 2 === 0){
+        totalEvenNumber += evenNum;
+        console.log(totalEvenNumber);
+    }
+    evenNum++;;
+}
