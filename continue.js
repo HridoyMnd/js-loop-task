@@ -1,0 +1,13 @@
+// display odd numbers from 55 to 85 and skip numbers divisible by 5
+let number = 55;
+while (number <= 85) {
+  if (number % 5 === 0) {
+    number++;
+    continue;
+  }
+  if (number % 2 === 1) {
+    console.log(number);
+  }
+
+  number++;
+}
